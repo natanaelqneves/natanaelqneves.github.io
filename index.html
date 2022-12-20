@@ -17,22 +17,22 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/cursos.html">Cursos</a>
+                </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Projetos</a>
+                        <a class="nav-link active" aria-current="page" href="/projetos.html">Projetos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Cursos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Quem sou?</a>
+                        <a class="nav-link active" aria-current="page" href="/quemsou.html">Quem sou?</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Contato
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                          <li><a class="dropdown-item" href="https://github.com/natanaelqneves">Github</a></li>
-                          <li><a class="dropdown-item" href="https://www.linkedin.com/in/natanaelqn/">LinkedIn</a></li>
+                          <li><a class="dropdown-item" href="https://github.com/natanaelqneves" target="_blank">Github</a></li>
+                          <li><a class="dropdown-item" href="https://www.linkedin.com/in/natanaelqn/" target="_blank">LinkedIn</a></li>
                           <li><a class="dropdown-item" href="mailto:natanaelqueiroz@gmail.com" >E-mail</a></li>
                         </ul>
                       </li>
@@ -54,85 +54,53 @@
             </div>
           </div>
 
-          <div class="container px-4 py-5" id="custom-cards">
-            <h2 class="pb-2 border-bottom">Custom cards</h2>
-        
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('/img/spring.png'); background-position: center;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text- text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold invisible">Short title, long jacket</h2>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Earth</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>3d</small>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
+          <hr class="featurette-divider">
+
+          <div class="container-lg">
+            <div class="row featurette  align-items-center">
+              <div class="col-md-7">
+                <h2 class="featurette-heading fw-normal lh-1">Primeiros passos na programação. <span class="text-muted"></span></h2>
+                <p class="lead">Durante o curso de Engenharia de Produção, na UFPB, tive as primeiras aulas de lógica de programação e algorítmos com a linguagem C.</p>
               </div>
+              <div class="col-md-5">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
         
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-white bg-dark rounded-5 shadow-lg" style="background-image: url('/img/postgres.png'); background-position: center;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-black text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold invisible">Much longer title that wraps to multiple lines</h2>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>Pakistan</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>4d</small>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-        
-              <div class="col">
-                <div class="card card-cover h-100 overflow-hidden text-black bg-dark rounded-5 shadow-lg" style="background-image: url('/img/google.png');
-                background-position: center;">
-                  <div class="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">
-                    <h2 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold invisible">Another longer title belongs here</h2>
-                    <ul class="d-flex list-unstyled mt-auto">
-                      <li class="me-auto">
-                        <img src="https://github.com/twbs.png" alt="Bootstrap" width="32" height="32" class="rounded-circle border border-white">
-                      </li>
-                      <li class="d-flex align-items-center me-3">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#geo-fill"></use></svg>
-                        <small>California</small>
-                      </li>
-                      <li class="d-flex align-items-center">
-                        <svg class="bi me-2" width="1em" height="1em"><use xlink:href="#calendar3"></use></svg>
-                        <small>5d</small>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
+          
+
+          <hr class="featurette-divider">
+
+          <div class="container-lg">
+            <div class="row featurette align-items-center">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading fw-normal lh-1">Back End, Front ou FullStack? <span class="text-muted"></span></h2>
+                <p class="lead">Para um desenvolvedor iniciante, integrar tecnólogias e desenvolver projetos completos se torna um tarefa de memorização na qual se acompanha o passo a passo.</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"></rect><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+        
+              </div>
+            </div>  
+          </div>
+          
+          <hr class="featurette-divider">
+    
           <div class="container">
-            <footer class="py-3 my-4">
-              <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
-                <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+            <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+              <div class="col-md-4 d-flex align-items-center">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                  <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+                </a>
+                <span class="mb-3 mb-md-0 text-muted">© 2022 Company, Inc</span>
+              </div>
+          
+              <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+                <li class="ms-3"><a class="text-muted" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
               </ul>
-              <p class="text-center text-muted">© 2021 Company, Inc</p>
             </footer>
           </div>
     </main>
